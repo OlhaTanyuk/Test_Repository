@@ -1,0 +1,3 @@
+> Olga <- data.frame(Science = c("comp.prog.", "math", "stat.", "mach.learn.", "dom.exp.", "com.&pres.skills", "data vis."), Ranking = c(3, 5, 2, 1, 1, 3, 3))
+> Olga
+> barplot(Olga$Ranking, names = Olga$Science, xlab = "Science", ylab = "Ranking 1-5", main = "Olga's data science profile")
